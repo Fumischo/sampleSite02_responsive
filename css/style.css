@@ -540,3 +540,43 @@ section {
   margin: 0 0 3px 10px;
   transform: rotate(-90deg);
 }
+
+/* footer全体のスタイル */
+.foot-area {
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  background-color: #596880;
+}
+
+/* ロゴ画像のスタイル */
+.foot-logo {
+  margin: 0 auto 20px;
+}
+
+/* 電話番号のスタイル */
+.text-phone,
+.text-phone a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+}
+
+/* 著作権表示のスタイル */
+.foot-area_copy {
+  color: #ccc;
+  font-size: 12px;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+}
+
+/* PC用のスタイル */
+@media (min-width: 768px) {
+  a[href^="tel"] {
+    pointer-events: none;
+  }
+}
